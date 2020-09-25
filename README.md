@@ -20,7 +20,5 @@ Métrica: tempo até a última atualização (calculado a partir da data de últ
 Métrica: linguagem primária de cada um desses repositórios
 6. **Sistemas populares possuem um alto percentual de issues fechadas?**  
 Métrica: razão entre número de issues fechadas pelo total de issues
-
-### Extra:
 7. **Sistemas escritos em linguagens mais populares recebem mais contribuição externa, lançam mais releases e são atualizados com mais frequência?**  
 Dica: compare os resultados para os sistemas com as linguagens da reportagem com os resultados de sistemas em outras linguagens.
