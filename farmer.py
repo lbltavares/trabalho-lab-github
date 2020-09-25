@@ -52,9 +52,9 @@ def main():
             while not res:  # Tenta fazer uma nova requisicao em caso de falha
                 res = post(q["query"], cursor)
             pagina += 1
-            print("  pagina %d" % pagina)
             pageInfo = res["data"]["search"]["pageInfo"]
             repos.extend(res["data"]["search"]["nodes"])
+            print("  pagina %d    repos: %d" % (pagina, len(repos)))
             if pageInfo["hasNextPage"]:
                 cursor = "\"%s\"" % pageInfo["endCursor"]
             else:
